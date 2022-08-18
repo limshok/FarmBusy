@@ -10,7 +10,6 @@ public class StartController : MonoBehaviour
     private void Awake()
     {
         DontDestroyOnLoad(this);
-        
     }
 
     void Start()
