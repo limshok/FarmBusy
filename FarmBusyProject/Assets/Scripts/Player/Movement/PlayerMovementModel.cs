@@ -1,4 +1,4 @@
-﻿namespace Player.PlayerEntity
+﻿namespace Player.Movement
 {
     public class PlayerMovementModel
     {
