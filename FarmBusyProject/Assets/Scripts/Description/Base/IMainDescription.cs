@@ -4,6 +4,6 @@ namespace Description.Base
 {
     public interface IMainDescription
     {
-        IPlayerMovementDescription PlayerMovementDescription { get; }
+        IPlayerDescription PlayerMovementDescription { get; }
     }
 }

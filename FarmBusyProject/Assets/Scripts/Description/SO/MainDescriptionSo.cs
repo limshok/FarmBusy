@@ -8,8 +8,8 @@ namespace Description.SO
     [CreateAssetMenu(menuName = "Descriptions/Main", fileName = "MainDescription")]
     public class MainDescriptionSo : ScriptableObject,IMainDescription
     {
-        [SerializeField] private PlayerMovementDescriptionSo _playerMovementDescription;
+        [SerializeField] private PlayerDescriptionSo _playerMovementDescription;
 
-        public IPlayerMovementDescription PlayerMovementDescription => _playerMovementDescription;
+        public IPlayerDescription PlayerMovementDescription => _playerMovementDescription;
     }
 }
